@@ -4,6 +4,7 @@
     border: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'roboto';
 }
 
 body{
@@ -17,6 +18,16 @@ header{
     flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5em;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
 }
 
 .hood{
@@ -40,4 +51,60 @@ main{
     height: 50vh;
     background-color: #FFE1C9;
     border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.email{
+    block-size: 3em;
+    margin-top: 4em;
+    font-family: 'roboto';
+    font-size: 1.2em;
+    border-radius: 5%;
+    border-color: black;
+    border:groove
+
+}
+
+
+.eyeright{ width: 3vw;
+    height: 6vh;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 41%;
+    top: 50%;}
+
+
+.eyeleft{
+    width: 3vw;
+    height: 6vh;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 41%;
+    top: 50%;
+}
+
+footer{
+    width: 100vw;
+    height:7vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    height: 6h;
+    width: 7vw;
+    margin: 1em;
+    border-radius: 10%;
+    background-color: #55A603;
+    font-family:  'roboto';
+    box-shadow:black;
+    box-shadow:;
+}
+
