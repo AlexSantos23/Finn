@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2CB3F3;
+}
+
+header{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.hood{
+    width: 45vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20% 20% 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    width: 30vw;
+    height: 50vh;
+    background-color: #FFE1C9;
+    border-radius: 50%;
+}
